@@ -1,0 +1,23 @@
+.Navbar {
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  align-items: center;
+  width: 100%;
+  background-color: aliceblue;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    gap: 20px;
+    margin: 0 auto;
+    a {
+      padding: 10px;
+      color: black;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
