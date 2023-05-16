@@ -1,15 +1,21 @@
 .Header {
-  height: 700px;
-  background-color: antiquewhite;
   main {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    display: flex;
-    margin: 0 auto;
-    width: 80%;
-    height: 100%;
-    section {
-      width: 100%;
+    width: 100%;
+    height: 720px;
+    background-image: url("../../assets/img_53.JPG");
+    background-size: cover;
+    background-position: center;
+
+    .sec1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      width: 80%;
+
       h2 {
         font-size: 50px;
         margin: 10px 0;
@@ -43,4 +49,6 @@
       }
     }
   }
+
+  
 }

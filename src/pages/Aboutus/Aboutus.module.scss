@@ -1,0 +1,56 @@
+.Aboutus {
+  height: 100%;
+  width: 100%;
+
+  .sec_header {
+    background-image: url(../../assets/img_42.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+      color: white;
+
+    }
+    p{
+      color: white;
+    }
+  }
+
+  .sec_title {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 470px;
+    article {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  .sec_owners {
+    width: 100%;
+
+    h3 {
+      text-align: center;
+      font-size: 35px;
+    }
+
+    .owner{
+      width: 80%;
+      margin: 50px auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+    }
+  }
+}
